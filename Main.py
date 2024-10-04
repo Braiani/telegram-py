@@ -63,7 +63,7 @@ def main():
             return
         bot.send_message(message.chat.id, message.text)
 
-    bot.polling()
+    bot.infinity_polling()
 
 
 if __name__ == '__main__':
